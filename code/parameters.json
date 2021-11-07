@@ -1,0 +1,20 @@
+{
+"knn_1_n_neighbours" : [8, 10, 12],
+"knn_2_n_neighbours" : [8, 10, 12],
+"knn_3_n_neighbours" : [8, 10, 12],
+"knn_4_n_neighbours" : [8, 10, 12],
+"knn_weights"  : ["uniform","distance"],
+
+"dt_criterion" : ["gini","entropy"],
+"dt_random_state" : [0],
+
+"rf_1_n_estimators" : [70, 80, 90],
+"rf_2_n_estimators" : [110, 120, 130],
+"rf_3_n_estimators" : [70, 100, 130],
+"rf_4_n_estimators" : [70, 80, 90],
+"rf_1_max_depth"    : [2, 6, 8],
+"rf_2_max_depth"    : [2, 6, 8],
+"rf_3_max_depth"    : [2, 6, 8],
+"rf_4_max_depth"    : [2, 6, 8],
+"rf_random_state"  : [0]
+}
